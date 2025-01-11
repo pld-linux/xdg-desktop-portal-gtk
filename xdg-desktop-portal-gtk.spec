@@ -1,7 +1,7 @@
 Summary:	Gtk implementation of xdg-desktop-portal
 Name:		xdg-desktop-portal-gtk
 Version:	1.15.2
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/%{version}/%{name}-%{version}.tar.xz
@@ -44,6 +44,8 @@ org.gnome.Screensaver D-Bus interfaces.
 rm -rf $RPM_BUILD_ROOT
 
 %ninja_install -C build
+
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/ie
 
 %find_lang xdg-desktop-portal-gtk
 
