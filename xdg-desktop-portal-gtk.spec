@@ -1,11 +1,11 @@
 Summary:	Gtk implementation of xdg-desktop-portal
 Name:		xdg-desktop-portal-gtk
-Version:	1.15.2
-Release:	2
+Version:	1.15.3
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	a84f2748611383cd1d1731542de7bce0
+# Source0-md5:	2d6e2ad2953c386a1db11618fa3803b0
 URL:		https://github.com/flatpak/xdg-desktop-portal-gtk
 BuildRequires:	fontconfig-devel
 BuildRequires:	gettext-tools
